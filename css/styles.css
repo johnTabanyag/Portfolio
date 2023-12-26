@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: #59CE8F;
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+    color: #FF1E00;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}nav ul li a:hover{
+    color: white;
+}
+
+.contact_nav{
+    
+    padding: 10px 15px;
+    color: #E8F9FD;
+    background-color: #000;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.contact_nav:hover{
+    background-color: #FF1E00;
+}
+
+
+/* HOME */
+
+.home_container{
+    padding-top: 10rem;
+    background-color: #E8F9FD;
+    height: 100vh;
+}
+
+.home_flexcontainer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home_info h1{
+    margin-top: 20px;
+    font-size: 40px;
+    
+}
+
+.avatar_img{
+    height: 300px;
+}
+
+.resume_button{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #E8F9FD;
+    background-color: #FF1E00;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    width: 50%;
+}
+
+.resume_button:hover{
+    background-color: #301714;
+    padding: 12px 17px;
+    
+}
+
+.social_icons{
+    margin: 150px 50px 0;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+
+/* About */
+
+.about_container{
+    padding-top: 50px;
+    background-color: #59CE8F;
+    height: 100vh;
+}
+
+.about_flexcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 125px 50px 0;
+}
+
+.about_img{
+    height: 300px;
+}
+
+.about_info{
+    width: 50%;
+}
+
+@keyframes in-about {
+    0%   {margin-left: 400px;}
+    100% {margin-left: 0;}
+  }
+
+
+.about_info h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    animation: in-about 2s;
+}
+
+.about_info_background{
+
+    padding: 20px;
+    border-radius: 20px ;
+    background-color:  #d9f5fb;
+}
+
+/* @keyframes ease-in-1 {
+    0%   {color:  #214d35;}
+    100% {color: #d9f5fb;}
+  } */
+
+
+.first_about{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(51, 50, 50);
+    /* animation-name: ease-in-1;
+    animation-duration: 5s; */
+
+}
+
+.second_about{
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 30px;
+    /* animation-name: ease-in-1;
+    animation-duration: 5s; */
+}
+
+/* Projects */
+
+.project_container{
+    background-color:#d9f5fb;
+    height: 100vh;
+}
+
+.project_info{
+    padding: 100px 50px 0;
+}
+
+.project_info h1{
+    color: #000;
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+}
+
+.project_flexcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.project_box{
+    width: 330px;
+    height: 180px;
+    margin: 20px;
+    border: 4px solid #000;
+    border-radius: 10px;
+}
+
+.project_box img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px; 
+}
+
+.project_box:hover{
+    opacity: 0.8;
+    width: 335px;
+    height: 185px;
+}
+
+
+/* contact */
+
+.contact_container{
+    background-color: #59CE8F;
+    color:#d9f5fb;
+    padding: 100px 50px 20px;
+
+}
+
+.contact_info h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+}
+
+.contact_info div{
+    margin: 30px 0;
+}
+
+.contact_info button{
+    padding: 10px 15px;
+    color: #d9f5fb ;
+    background-color: #FF1E00;
+    border-radius: 20px;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact_info button:hover{
+    font-size: 20px;
+}
+
+
+.copyright_div p{
+    text-align: center;
+    margin: 30px;
+    font-size: 13px;
+}
